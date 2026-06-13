@@ -2,8 +2,7 @@
 
 A production-ready sentiment analysis microservice built with **FastAPI** and **TextBlob**. This project demonstrates modern DevOps practices including CI/CD pipelines, containerization, code quality automation, and observability with Prometheus metrics.
 
-> **Course:** CISC-814 — DevOps & CI/CD  
-
+> **Course:** CISC-814 — DevOps & CI/CD
 
 ---
 
@@ -266,6 +265,8 @@ ruff check src/ tests/ --fix
 
 ## CI/CD Pipeline
 
+![CI/CD Pipeline Diagram](team-queens-architecture-pro.drawio%20(3).png)
+
 The `.gitea/workflows/ci.yml` runs on every push and PR to `main`:
 
 ```
@@ -289,7 +290,7 @@ The `.gitea/workflows/ci.yml` runs on every push and PR to `main`:
 - **Image:** `ml-sentiment-app:latest`
 - **Tag:** Git commit SHA
 
-
+---
 
 ## Configuration
 
