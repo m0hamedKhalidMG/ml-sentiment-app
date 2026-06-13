@@ -289,18 +289,7 @@ The `.gitea/workflows/ci.yml` runs on every push and PR to `main`:
 - **Image:** `ml-sentiment-app:latest`
 - **Tag:** Git commit SHA
 
----
 
-## Team & Responsibilities
-
-| Member | Role | Contributions |
-|--------|------|-------------|
-| **Marwan Aly** | CI Pipeline | `.gitea/workflows/ci.yml`, registry config, pipeline orchestration |
-| **Manar Elabsi** | Code Quality | Fixed mypy annotations in `preprocess.py` & `inference.py`, ruff compliance |
-| **Mohamed Othman** | Testing | Edge-case tests, integration tests, maintained 100% coverage |
-| **Aya Abdallah** | DevOps | Multi-stage Dockerfile, `.dockerignore`, non-root user, SBOM |
-
----
 
 ## Configuration
 
