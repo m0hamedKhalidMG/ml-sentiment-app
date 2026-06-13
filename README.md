@@ -3,7 +3,7 @@
 A production-ready sentiment analysis microservice built with **FastAPI** and **TextBlob**. This project demonstrates modern DevOps practices including CI/CD pipelines, containerization, code quality automation, and observability with Prometheus metrics.
 
 > **Course:** CISC-814 — DevOps & CI/CD  
-> **Team:** Marwan Aly, Manar Elabsi, Mohamed Othman, Aya Abdallah
+
 
 ---
 
